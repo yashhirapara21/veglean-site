@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact VegLean Meals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">VEGLEAN MEALS</div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="meal-plan.html">Meal Plan</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-main">
+          <h1>Contact VegLean</h1>
+          <p class="page-intro">
+            Have a question, recipe request, or feedback? Send a quick message below.
+          </p>
+
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              What are you looking for?
+              <select name="topic">
+                <option value="general">General question</option>
+                <option value="recipes">More recipes like these</option>
+                <option value="meal-plan">Help with meal planning</option>
+                <option value="feedback">Website feedback</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+
+        <aside class="contact-aside">
+          <h2>Quick FAQ</h2>
+          <p><strong>Are all recipes vegetarian?</strong><br />
+            Yes — they’re built around beans, lentils, tofu, whole grains, and veggies.</p>
+
+          <p><strong>Are the calories exact?</strong><br />
+            No — they are estimates based on similar recipes and typical portions.</p>
+
+          <p><strong>Can I use this for weight loss?</strong><br />
+            You can use the ideas, but you should always adjust portions and talk to
+            a health professional for personalized guidance.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="meal-plan.html">Meal Plan</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <small>© 2025 VegLean Meals</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
